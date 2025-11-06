@@ -1,0 +1,38 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Environnements
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Build outputs
+dist/
+build/
+out/
+
+# Logs
+logs
+*.log
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# mac / linux system files
+.DS_Store
+Thumbs.db
+
+# Backend (si Python par exemple)
+__pycache__/
+*.pyc
+
+# Uploads (si tu en stockes localement)
+uploads/
+storage/
