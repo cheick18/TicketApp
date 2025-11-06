@@ -1,6 +1,8 @@
 
 import ReactECharts from "echarts-for-react";
 import type { Ticket } from "../../types/ticket";
+import { useMemo } from "react";
+
 
 export default function TicketsCharts({ tickets }: { tickets: Ticket[] }) {
   console.log("all tickets:", tickets);
